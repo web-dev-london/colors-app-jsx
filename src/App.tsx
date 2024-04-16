@@ -1,11 +1,15 @@
+import { ChakraProvider } from '@chakra-ui/react'
 import './App.css'
+import Colors from './components/Colors'
 
 function App() {
 
 
     return (
         <>
-            <p>HELLO</p>
+            <ChakraProvider>
+                <Colors />
+            </ChakraProvider>
         </>
     )
 }
