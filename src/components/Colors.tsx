@@ -3,7 +3,8 @@ import { useState } from "react";
 
 const Colors = () => {
   const [typeOfColor, setTypeOfColor] = useState('hex');
-  const [color, setColor] = useState('#bd0000')
+  const [color, setColor] = useState('#c1d08a')
+
 
   const randomColor = (length: number) => {
     return Math.floor(Math.random() * length)
